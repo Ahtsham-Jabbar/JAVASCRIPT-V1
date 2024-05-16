@@ -1,0 +1,11 @@
+let score = undefined
+// let score = 22
+// let score = Null
+
+console.log(typeof (score));
+
+let valueInNumber = String (score)
+console.log(typeof (valueInNumber));
+console.log(valueInNumber);
+
+
