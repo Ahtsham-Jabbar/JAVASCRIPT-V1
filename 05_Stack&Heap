@@ -1,0 +1,22 @@
+// Stack -->  Primitive DataTypes  [ is main different output aati]
+// Heap -->   Non Primitive DataTypes [ is main same output ati]
+
+let studentId = 12345
+let anotherId = studentId
+// console.log(anotherId);
+anotherId = 6789
+// console.log(studentId);
+// console.log(anotherId);
+
+
+let studentOne = {
+    name: "ahtsham",
+    id: 878,
+}
+
+let studentTwo = studentOne;
+
+studentTwo.name = "farman"
+
+console.log(studentOne);
+console.log(studentTwo);
