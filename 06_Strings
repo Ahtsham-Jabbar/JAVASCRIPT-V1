@@ -1,0 +1,28 @@
+const name = "Ahtsham"
+const countRepo = 50
+
+// console.log(name +  countRepo);
+
+console.log(`my name is ${name} and my repositery in the youtube is ${countRepo}`);
+
+let gameName = new String ('Ahtsham')
+// console.log(gameName);
+// console.log(gameName[0]);
+// console.log(gameName.length);
+// console.log(gameName.toUpperCase());
+// console.log(gameName.charAt(2));
+// console.log(gameName.indexOf('t'));
+
+const str = "    Ahtsham    "
+console.log(str);
+console.log(str.trim());
+
+const str2 = "http://www.sham%20jatt.com"
+console.log(str2);
+console.log(str2.replace('%20','-'));
+
+
+const str3 = "http://www.sham%20jatt.com"
+
+console.log(str3.split('.'));
+
