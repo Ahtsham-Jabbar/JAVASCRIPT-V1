@@ -20,3 +20,4 @@ studentTwo.name = "farman"
 
 console.log(studentOne);
 console.log(studentTwo);
+
